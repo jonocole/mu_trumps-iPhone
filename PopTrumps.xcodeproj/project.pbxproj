@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PopTrumpsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PopTrumpsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		FB43CD3E12ECE9000053B328 /* LoadingScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB43CD3D12ECE9000053B328 /* LoadingScreen.xib */; };
+		FB43D2C512ED93370053B328 /* icon_albums.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2BF12ED93370053B328 /* icon_albums.png */; };
+		FB43D2C612ED93370053B328 /* icon_familiarity.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2C012ED93370053B328 /* icon_familiarity.png */; };
+		FB43D2C712ED93370053B328 /* icon_grid_active.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2C112ED93370053B328 /* icon_grid_active.png */; };
+		FB43D2C812ED93370053B328 /* icon_grid_passive.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2C212ED93370053B328 /* icon_grid_passive.png */; };
+		FB43D2C912ED93370053B328 /* icon_hotness.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2C312ED93370053B328 /* icon_hotness.png */; };
+		FB43D2CA12ED93370053B328 /* icon_singles.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2C412ED93370053B328 /* icon_singles.png */; };
+		FB43D2DC12ED96660053B328 /* darkshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2DA12ED96660053B328 /* darkshadow.png */; };
+		FB43D2DD12ED96660053B328 /* lightshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = FB43D2DB12ED96660053B328 /* lightshadow.png */; };
+		FB4B002512EC66CE00493445 /* CardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B002312EC66CE00493445 /* CardController.xib */; };
+		FB4B002B12EC67A900493445 /* 173021.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FB4B002A12EC67A900493445 /* 173021.jpeg */; };
+		FB4B00D112EC6DC200493445 /* CardController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B00D012EC6DC200493445 /* CardController.m */; };
+		FB4B01D212EC8CF400493445 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B01D112EC8CF400493445 /* Card.m */; };
+		FB4B01D512EC94CE00493445 /* CardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B01D412EC94CE00493445 /* CardDeck.m */; };
+		FB4B03BB12ECC61E00493445 /* MessageStreamHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B03BA12ECC61E00493445 /* MessageStreamHandler.m */; };
+		FBAAF11F12EC500B0074E008 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF11612EC500B0074E008 /* NSObject+SBJSON.m */; };
+		FBAAF12012EC500B0074E008 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF11812EC500B0074E008 /* NSString+SBJSON.m */; };
+		FBAAF12112EC500B0074E008 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF11A12EC500B0074E008 /* SBJsonBase.m */; };
+		FBAAF12212EC500B0074E008 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF11C12EC500B0074E008 /* SBJsonParser.m */; };
+		FBAAF12312EC500B0074E008 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF11E12EC500B0074E008 /* SBJsonWriter.m */; };
+		FBAAF19412EC5A110074E008 /* GamePlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF19212EC5A110074E008 /* GamePlayController.m */; };
+		FBAAF1DB12EC5D3A0074E008 /* GamePlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAAF1DA12EC5D3A0074E008 /* GamePlayController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PopTrumpsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTrumpsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PopTrumpsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTrumpsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Pop Trumps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pop Trumps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* PopTrumps_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTrumps_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PopTrumps-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PopTrumps-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FB43CD3D12ECE9000053B328 /* LoadingScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoadingScreen.xib; path = Classes/LoadingScreen.xib; sourceTree = "<group>"; };
+		FB43CD6312ECEBD90053B328 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		FB43D2BF12ED93370053B328 /* icon_albums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_albums.png; path = Resources/icon_albums.png; sourceTree = "<group>"; };
+		FB43D2C012ED93370053B328 /* icon_familiarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_familiarity.png; path = Resources/icon_familiarity.png; sourceTree = "<group>"; };
+		FB43D2C112ED93370053B328 /* icon_grid_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_grid_active.png; path = Resources/icon_grid_active.png; sourceTree = "<group>"; };
+		FB43D2C212ED93370053B328 /* icon_grid_passive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_grid_passive.png; path = Resources/icon_grid_passive.png; sourceTree = "<group>"; };
+		FB43D2C312ED93370053B328 /* icon_hotness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_hotness.png; path = Resources/icon_hotness.png; sourceTree = "<group>"; };
+		FB43D2C412ED93370053B328 /* icon_singles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_singles.png; path = Resources/icon_singles.png; sourceTree = "<group>"; };
+		FB43D2DA12ED96660053B328 /* darkshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkshadow.png; path = Resources/darkshadow.png; sourceTree = "<group>"; };
+		FB43D2DB12ED96660053B328 /* lightshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightshadow.png; path = Resources/lightshadow.png; sourceTree = "<group>"; };
+		FB4B002312EC66CE00493445 /* CardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CardController.xib; path = Classes/CardController.xib; sourceTree = "<group>"; };
+		FB4B002A12EC67A900493445 /* 173021.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 173021.jpeg; sourceTree = "<group>"; };
+		FB4B00CF12EC6DC200493445 /* CardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardController.h; sourceTree = "<group>"; };
+		FB4B00D012EC6DC200493445 /* CardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardController.m; sourceTree = "<group>"; };
+		FB4B01D012EC8CF400493445 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		FB4B01D112EC8CF400493445 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		FB4B01D312EC94CE00493445 /* CardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDeck.h; sourceTree = "<group>"; };
+		FB4B01D412EC94CE00493445 /* CardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDeck.m; sourceTree = "<group>"; };
+		FB4B03B912ECC61E00493445 /* MessageStreamHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStreamHandler.h; sourceTree = "<group>"; };
+		FB4B03BA12ECC61E00493445 /* MessageStreamHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStreamHandler.m; sourceTree = "<group>"; };
+		FBAAF0F112EC4C0F0074E008 /* JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSON.framework; path = "json-framework/build/Debug/JSON.framework"; sourceTree = "<group>"; };
+		FBAAF11412EC500B0074E008 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = "json-framework/Classes/JSON.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11512EC500B0074E008 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "json-framework/Classes/NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11612EC500B0074E008 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "json-framework/Classes/NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		FBAAF11712EC500B0074E008 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "json-framework/Classes/NSString+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11812EC500B0074E008 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "json-framework/Classes/NSString+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		FBAAF11912EC500B0074E008 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = "json-framework/Classes/SBJsonBase.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11A12EC500B0074E008 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = "json-framework/Classes/SBJsonBase.m"; sourceTree = SOURCE_ROOT; };
+		FBAAF11B12EC500B0074E008 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = "json-framework/Classes/SBJsonParser.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11C12EC500B0074E008 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "json-framework/Classes/SBJsonParser.m"; sourceTree = SOURCE_ROOT; };
+		FBAAF11D12EC500B0074E008 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = "json-framework/Classes/SBJsonWriter.h"; sourceTree = SOURCE_ROOT; };
+		FBAAF11E12EC500B0074E008 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "json-framework/Classes/SBJsonWriter.m"; sourceTree = SOURCE_ROOT; };
+		FBAAF19112EC5A110074E008 /* GamePlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayController.h; sourceTree = "<group>"; };
+		FBAAF19212EC5A110074E008 /* GamePlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayController.m; sourceTree = "<group>"; };
+		FBAAF1DA12EC5D3A0074E008 /* GamePlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamePlayController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B03B912ECC61E00493445 /* MessageStreamHandler.h */,
+				FB4B03BA12ECC61E00493445 /* MessageStreamHandler.m */,
+				FBAAF11312EC4FFA0074E008 /* JSON */,
+				FBAAF19112EC5A110074E008 /* GamePlayController.h */,
+				FBAAF19212EC5A110074E008 /* GamePlayController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* PopTrumpsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PopTrumpsAppDelegate.m */,
+				FB4B00CF12EC6DC200493445 /* CardController.h */,
+				FB4B00D012EC6DC200493445 /* CardController.m */,
+				FB4B01D012EC8CF400493445 /* Card.h */,
+				FB4B01D112EC8CF400493445 /* Card.m */,
+				FB4B01D312EC94CE00493445 /* CardDeck.h */,
+				FB4B01D412EC94CE00493445 /* CardDeck.m */,
+				FB43CD6312ECEBD90053B328 /* global.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Pop Trumps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				FBAAF0F112EC4C0F0074E008 /* JSON.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* PopTrumps_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB43D2DA12ED96660053B328 /* darkshadow.png */,
+				FB43D2DB12ED96660053B328 /* lightshadow.png */,
+				FB43D2BF12ED93370053B328 /* icon_albums.png */,
+				FB43D2C012ED93370053B328 /* icon_familiarity.png */,
+				FB43D2C112ED93370053B328 /* icon_grid_active.png */,
+				FB43D2C212ED93370053B328 /* icon_grid_passive.png */,
+				FB43D2C312ED93370053B328 /* icon_hotness.png */,
+				FB43D2C412ED93370053B328 /* icon_singles.png */,
+				FB43CD3D12ECE9000053B328 /* LoadingScreen.xib */,
+				FB4B002A12EC67A900493445 /* 173021.jpeg */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PopTrumps-Info.plist */,
+				FBAAF1DA12EC5D3A0074E008 /* GamePlayController.xib */,
+				FB4B002312EC66CE00493445 /* CardController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBAAF11312EC4FFA0074E008 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FBAAF11412EC500B0074E008 /* JSON.h */,
+				FBAAF11512EC500B0074E008 /* NSObject+SBJSON.h */,
+				FBAAF11612EC500B0074E008 /* NSObject+SBJSON.m */,
+				FBAAF11712EC500B0074E008 /* NSString+SBJSON.h */,
+				FBAAF11812EC500B0074E008 /* NSString+SBJSON.m */,
+				FBAAF11912EC500B0074E008 /* SBJsonBase.h */,
+				FBAAF11A12EC500B0074E008 /* SBJsonBase.m */,
+				FBAAF11B12EC500B0074E008 /* SBJsonParser.h */,
+				FBAAF11C12EC500B0074E008 /* SBJsonParser.m */,
+				FBAAF11D12EC500B0074E008 /* SBJsonWriter.h */,
+				FBAAF11E12EC500B0074E008 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PopTrumps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PopTrumps" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopTrumps;
+			productName = PopTrumps;
+			productReference = 1D6058910D05DD3D006BFB54 /* Pop Trumps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PopTrumps" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PopTrumps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				FBAAF1DB12EC5D3A0074E008 /* GamePlayController.xib in Resources */,
+				FB4B002512EC66CE00493445 /* CardController.xib in Resources */,
+				FB4B002B12EC67A900493445 /* 173021.jpeg in Resources */,
+				FB43CD3E12ECE9000053B328 /* LoadingScreen.xib in Resources */,
+				FB43D2C512ED93370053B328 /* icon_albums.png in Resources */,
+				FB43D2C612ED93370053B328 /* icon_familiarity.png in Resources */,
+				FB43D2C712ED93370053B328 /* icon_grid_active.png in Resources */,
+				FB43D2C812ED93370053B328 /* icon_grid_passive.png in Resources */,
+				FB43D2C912ED93370053B328 /* icon_hotness.png in Resources */,
+				FB43D2CA12ED93370053B328 /* icon_singles.png in Resources */,
+				FB43D2DC12ED96660053B328 /* darkshadow.png in Resources */,
+				FB43D2DD12ED96660053B328 /* lightshadow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PopTrumpsAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				FBAAF11F12EC500B0074E008 /* NSObject+SBJSON.m in Sources */,
+				FBAAF12012EC500B0074E008 /* NSString+SBJSON.m in Sources */,
+				FBAAF12112EC500B0074E008 /* SBJsonBase.m in Sources */,
+				FBAAF12212EC500B0074E008 /* SBJsonParser.m in Sources */,
+				FBAAF12312EC500B0074E008 /* SBJsonWriter.m in Sources */,
+				FBAAF19412EC5A110074E008 /* GamePlayController.m in Sources */,
+				FB4B00D112EC6DC200493445 /* CardController.m in Sources */,
+				FB4B01D212EC8CF400493445 /* Card.m in Sources */,
+				FB4B01D512EC94CE00493445 /* CardDeck.m in Sources */,
+				FB4B03BB12ECC61E00493445 /* MessageStreamHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/json-framework/build/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PopTrumps_Prefix.pch;
+				INFOPLIST_FILE = "PopTrumps-Info.plist";
+				PRODUCT_NAME = "Pop Trumps";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/json-framework/build/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PopTrumps_Prefix.pch;
+				INFOPLIST_FILE = "PopTrumps-Info.plist";
+				PRODUCT_NAME = PopTrumps;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PopTrumps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PopTrumps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
