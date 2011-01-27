@@ -1,762 +1,0 @@
-TPopTrumps
-v7
-r0
-t317508523.621036
-cCheck dependencies
-cProcessInfoPlistFile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/Info.plist PopTrumps-Info.plist
-cCompileXIB /Users/jono/dev/mhd/PopTrumps/MainWindow.xib
-cCompileXIB /Users/jono/dev/mhd/PopTrumps/RootViewController.xib
-cCompileXIB /Users/jono/dev/mhd/PopTrumps/GamePlayController.xib
-cCompileXIB /Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib
-cCpResource build/Release-iphonesimulator/PopTrumps.app/173021.jpeg 173021.jpeg
-cCpResource build/Release-iphonesimulator/PopTrumps.app/icon_albums.png icon_albums.png
-cCpResource build/Release-iphonesimulator/PopTrumps.app/icon_familiarity.png icon_familiarity.png
-cCpResource build/Release-iphonesimulator/PopTrumps.app/icon_hotness.png icon_hotness.png
-cCpResource build/Release-iphonesimulator/PopTrumps.app/icon_singles.png icon_singles.png
-cCpResource build/Release-iphonesimulator/PopTrumps.app/icon_grid.png icon_grid.png
-cProcessPCH /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch.gch PopTrumps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/main.o /Users/jono/dev/mhd/PopTrumps/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumpsAppDelegate.o /Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/RootViewController.o /Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSObject+SBJSON.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSString+SBJSON.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonBase.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonParser.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonWriter.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/GamePlayController.o /Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardController.o /Users/jono/dev/mhd/PopTrumps/Classes/CardController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/Card.o /Users/jono/dev/mhd/PopTrumps/Classes/Card.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardDeck.o /Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/MessageStreamHandler.o /Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Users/jono/dev/mhd/PopTrumps/173021.jpeg
-c000000004D3C301F0000000000007F25
-t1295790111
-s32549
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/Card.h
-c000000004D3C81F8000000000000017A
-t1295811064
-s378
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/Card.m
-c000000004D3C82E5000000000000022B
-t1295811301
-s555
-i"Card.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/CardController.h
-c000000004D3C824A00000000000001B8
-t1295811146
-s440
-i<UIKit/UIKit.h>
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/CardController.m
-c000000004D3C8381000000000000083B
-t1295811457
-s2107
-i"CardController.h"
-i"Card.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib
-c000000004D3C82A30000000000008013
-t1295811235
-s32787
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.h
-c000000004D3C657F0000000000000164
-t1295803775
-s356
-i<Foundation/Foundation.h>
-i"Card.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m
-c000000004D3C655E00000000000001E6
-t1295803742
-s486
-i"CardDeck.h"
-i"Card.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.h
-c000000004D3C60C90000000000000167
-t1295802569
-s359
-i<UIKit/UIKit.h>
-i"CardController.h"
-i"CardDeck.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m
-c000000004D3C6CB80000000000000601
-t1295805624
-s1537
-i"GamePlayController.h"
-i"PopTrumpsAppDelegate.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.h
-c000000004D3C8F4E0000000000000129
-t1295814478
-s297
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m
-c000000004D3C912F0000000000000205
-t1295814959
-s517
-i"MessageStreamHandler.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.h
-c000000004D3C60A70000000000000290
-t1295802535
-s656
-i<UIKit/UIKit.h>
-i"GamePlayController.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m
-c000000004D3C912F0000000000000BCE
-t1295814959
-s3022
-i"PopTrumpsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.h
-c000000004D3C843D00000000000001BF
-t1295811645
-s447
-i<UIKit/UIKit.h>
-
-N/Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m
-c000000004D3C8B820000000000000B25
-t1295813506
-s2853
-i"RootViewController.h"
-i"PopTrumpsAppDelegate.h"
-i"JSON.h"
-i"CardDeck.h"
-
-N/Users/jono/dev/mhd/PopTrumps/GamePlayController.xib
-c000000004D3C2E870000000000003EDD
-t1295789703
-s16093
-
-N/Users/jono/dev/mhd/PopTrumps/MainWindow.xib
-c000000004D3C940C0000000000006E41
-t1295815692
-s28225
-
-N/Users/jono/dev/mhd/PopTrumps/PopTrumps_Prefix.pch
-c000000004D3C09650000000000000144
-t1295780197
-s324
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/jono/dev/mhd/PopTrumps/RootViewController.xib
-c000000004D3C84D30000000000005096
-t1295811795
-s20630
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/Card.o
-t1295815723
-s8676
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardController.o
-t1295815723
-s42668
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardDeck.o
-t1295815723
-s9296
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/GamePlayController.o
-t1295815723
-s40900
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/MessageStreamHandler.o
-t2
-s0
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSObject+SBJSON.o
-t1295815722
-s7432
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSString+SBJSON.o
-t1295815723
-s7324
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumps.LinkFileList
-c000000004D3C94270000000000000681
-t1295815719
-s1665
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumpsAppDelegate.o
-t2
-s0
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/RootViewController.o
-t1295815723
-s52340
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonBase.o
-t1295815723
-s12776
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonParser.o
-t1295815723
-s33196
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonWriter.o
-t1295815723
-s24028
-
-N/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/main.o
-t1295815722
-s6272
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app
-t2
-s0
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app.dSYM
-t2
-s0
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/173021.jpeg
-t1295815720
-s32549
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/CardController.nib
-t1295815720
-s2614
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/GamePlayController.nib
-t1295815720
-s764
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/Info.plist
-t1295815719
-s599
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/MainWindow.nib
-t1295815720
-s1536
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/PkgInfo
-t1295815719
-s8
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/PopTrumps
-t2
-s0
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/RootViewController.nib
-t1295815719
-s1396
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/icon_albums.png
-t1295815720
-s7861
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/icon_familiarity.png
-t1295815720
-s11239
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/icon_grid.png
-t1295815720
-s4369
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/icon_hotness.png
-t1295815720
-s8087
-
-N/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/icon_singles.png
-t1295815720
-s6696
-
-N/Users/jono/dev/mhd/PopTrumps/icon_albums.png
-c000000004D3C90E10000000000001EB5
-t1295814881
-s7861
-
-N/Users/jono/dev/mhd/PopTrumps/icon_familiarity.png
-c000000004D3C90E10000000000002BE7
-t1295814881
-s11239
-
-N/Users/jono/dev/mhd/PopTrumps/icon_grid.png
-c000000004D3C92FA0000000000001111
-t1295815418
-s4369
-
-N/Users/jono/dev/mhd/PopTrumps/icon_hotness.png
-c000000004D3C90E10000000000001F97
-t1295814881
-s8087
-
-N/Users/jono/dev/mhd/PopTrumps/icon_singles.png
-c000000004D3C90E10000000000001A28
-t1295814881
-s6696
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/JSON.h
-c000000004D3C14A90000000000000AC5
-t1295783081
-s2757
-i"SBJsonParser.h"
-i"SBJsonWriter.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-i<JSON/SBJsonParser.h>
-i<JSON/SBJsonWriter.h>
-i<JSON/NSObject+SBJSON.h>
-i<JSON/NSString+SBJSON.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.h
-c000000004D2B12CC000000000000085F
-t1294668492
-s2143
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m
-c000000004D2B12CC000000000000077D
-t1294668492
-s1917
-i"NSObject+SBJSON.h"
-i"SBJsonWriter.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.h
-c000000004D2B12CC00000000000007F0
-t1294668492
-s2032
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m
-c000000004D2B12CC000000000000075D
-t1294668492
-s1885
-i"NSString+SBJSON.h"
-i"SBJsonParser.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.h
-c000000004D2B12CC0000000000000B82
-t1294668492
-s2946
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m
-c000000004D2B12CC0000000000000AC1
-t1294668492
-s2753
-i"SBJsonBase.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.h
-c000000004D2B12CC0000000000000C8F
-t1294668492
-s3215
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m
-c000000004D2B12CC0000000000003B7A
-t1294668492
-s15226
-i"SBJsonParser.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.h
-c000000004D2B12CC00000000000011D9
-t1294668492
-s4569
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m
-c000000004D2B12CC000000000000206D
-t1294668492
-s8301
-i"SBJsonWriter.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug/JSON.framework/PrivateHeaders/NSObject+SBJSON.h
-c000000004D3C138F000000000000085F
-t1295782799
-s2143
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug/JSON.framework/PrivateHeaders/NSString+SBJSON.h
-c000000004D3C138F00000000000007F0
-t1295782799
-s2032
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug/JSON.framework/PrivateHeaders/SBJsonBase.h
-c000000004D3C138F0000000000000B82
-t1295782799
-s2946
-i<Foundation/Foundation.h>
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug/JSON.framework/PrivateHeaders/SBJsonParser.h
-c000000004D3C138F0000000000000C8F
-t1295782799
-s3215
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug/JSON.framework/PrivateHeaders/SBJsonWriter.h
-c000000004D3C138F00000000000011D9
-t1295782799
-s4569
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/jono/dev/mhd/PopTrumps/main.m
-c000000004D3C09650000000000000161
-t1295780197
-s353
-i<UIKit/UIKit.h>
-
-N/var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch.gch
-t1295815722
-s15113424
-
-NPopTrumps-Info.plist
-c000000004D3C0965000000000000038D
-t1295780197
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317508519#317508519#0(0"0(0#1#0"8660965280#0"0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/Card.o /Users/jono/dev/mhd/PopTrumps/Classes/Card.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.442977
-e317508523.567587
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/Card.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/Card.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/jono/dev/mhd/PopTrumps/Classes/Card.m317508523#317508523#0(0"0(0#0#44"/Users/jono/dev/mhd/PopTrumps/Classes/Card.m8621015872#2084"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/Card.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/Card.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardController.o /Users/jono/dev/mhd/PopTrumps/Classes/CardController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.361099
-e317508523.467519
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardController.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/CardController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/jono/dev/mhd/PopTrumps/Classes/CardController.m317508523#317508523#0(0"0(0#0#54"/Users/jono/dev/mhd/PopTrumps/Classes/CardController.m8622590496#2104"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/CardController.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardController.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardDeck.o /Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.467619
-e317508523.605125
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardDeck.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m317508523#317508523#0(0"0(0#0#48"/Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m8611204224#2092"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/CardDeck.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/CardDeck.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/GamePlayController.o /Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.338243
-e317508523.442878
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/GamePlayController.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m317508523#317508523#0(0"0(0#0#58"/Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m8630923936#2112"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/GamePlayController.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/GamePlayController.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/MessageStreamHandler.o /Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.567696
-e317508523.620786
-r0
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/MessageStreamHandler.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m: In function '-[MessageStreamHandler initWithUsername:]':
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:18: error: expected expression before 'NSURLConnection'
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:18: error: expected ']' before ';' token
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:19: error: expected ',' or ';' before '}' token
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: error: expected expression before 'end'
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: error: expected declaration or statement at end of input
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:17: warning: unused variable 'req'
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m: At top level:
-o/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: warning: '@end' missing in implementation context
-lSLF07#2@68"Compile /Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317508523#317508523#0(961"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m: In function '-[MessageStreamHandler initWithUsername:]':/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:18: error: expected expression before 'NSURLConnection'/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:18: error: expected ']' before ';' token/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:19: error: expected ',' or ';' before '}' token/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: error: expected expression before 'end'/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: error: expected declaration or statement at end of input/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:17: warning: unused variable 'req'/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m: At top level:/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m:21: warning: '@end' missing in implementation context8(4@44"Expected expression before 'NSURLConnection'317508523#119#117#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#18#0#18#0#19"expected * before *0(4@29"Expected ']' before ';' token317508523#236#102#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#18#0#18#0#19"expected * before *0(4@36"Expected ',' or ';' before '}' token317508523#338#109#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#19#0#19#0#19"expected * before *0(4@32"Expected expression before 'end'317508523#447#105#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#21#0#21#0#19"expected * before *0(4@49"Expected declaration or statement at end of input317508523#552#122#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#21#0#21#0#49"expected declaration or statement at end of input0(22@21"Unused variable 'req'317508523#674#96#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#17#0#17#0#19"unused variable '*'0(23@13"At top level:317508523#770#76#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#0#0#0#0#0"0(22@40"'@end' missing in implementation context317508523#846#115#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m317507759#21#0#21#0#40"'@end' missing in implementation context0(0#0#60"/Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m8630985664#2116"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/MessageStreamHandler.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/MessageStreamHandler.o1#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSObject+SBJSON.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508522.900307
-e317508522.962083
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSObject+SBJSON.o
-x/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m317508522#317508522#0(0"0(0#0#70"/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m8641824928#2121"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSObject+SBJSON.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSObject+SBJSON.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSString+SBJSON.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508522.962177
-e317508523.035078
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSString+SBJSON.o
-x/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m317508522#317508523#0(0"0(0#0#70"/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m8624398080#2121"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/NSString+SBJSON.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/NSString+SBJSON.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumpsAppDelegate.o /Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508522.720905
-e317508522.838436
-r0
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumpsAppDelegate.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m: In function '-[PopTrumpsAppDelegate createGame:]':
-o/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m:80: error: expected expression before '}' token
-o/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m:80: error: expected ';' before '}' token
-lSLF07#2@68"Compile /Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m317508522#317508522#0(324"/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m: In function '-[PopTrumpsAppDelegate createGame:]':/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m:80: error: expected expression before '}' token/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m:80: error: expected ';' before '}' token2(4@36"Expected expression before '}' token317508522#113#109#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m317507759#80#0#80#0#19"expected * before *0(4@29"Expected ';' before '}' token317508522#222#102#0(6@60"/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m317507759#80#0#80#0#19"expected * before *0(0#0#60"/Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m8622047040#2116"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/PopTrumpsAppDelegate.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/PopTrumpsAppDelegate.o1#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/RootViewController.o /Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508522.838558
-e317508523.013849
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/RootViewController.o
-x/Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m317508522#317508523#0(0"0(0#0#58"/Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m8618360768#2112"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/Classes/RootViewController.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonBase.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.013957
-e317508523.126683
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonBase.o
-x/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m317508523#317508523#0(0"0(0#0#65"/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m8622920416#2111"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonBase.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonBase.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonParser.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.035177
-e317508523.361001
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonParser.o
-x/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m317508523#317508523#0(0"0(0#0#67"/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m8621304000#2115"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonParser.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonParser.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonWriter.o /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508523.126984
-e317508523.338156
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonWriter.o
-x/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m317508523#317508523#0(0"0(0#0#67"/Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m8610060992#2115"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/json-framework/Classes/SBJsonWriter.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/SBJsonWriter.o0#
-
-CCompileC build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/main.o /Users/jono/dev/mhd/PopTrumps/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508522.719497
-e317508522.900213
-r1
-xCompileC
-xbuild/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/main.o
-x/Users/jono/dev/mhd/PopTrumps/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@44"Compile /Users/jono/dev/mhd/PopTrumps/main.m317508522#317508522#0(0"0(0#0#36"/Users/jono/dev/mhd/PopTrumps/main.m8624071744#2076"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch -c /Users/jono/dev/mhd/PopTrumps/main.m -o /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib
-s317508520.045119
-e317508520.645963
-r1
-xCompileXIB
-x/Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib
-lSLF07#2@37"CompileXIB Classes/CardController.xib317508520#317508520#0(0"0(0#0#56"/Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib8642839872#666"    cd /Users/jono/dev/mhd/PopTrumps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/CardController.nib /Users/jono/dev/mhd/PopTrumps/Classes/CardController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/jono/dev/mhd/PopTrumps/GamePlayController.xib
-s317508520.012930
-e317508520.452096
-r1
-xCompileXIB
-x/Users/jono/dev/mhd/PopTrumps/GamePlayController.xib
-lSLF07#2@33"CompileXIB GamePlayController.xib317508520#317508520#0(0"0(0#0#52"/Users/jono/dev/mhd/PopTrumps/GamePlayController.xib8648786144#666"    cd /Users/jono/dev/mhd/PopTrumps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/GamePlayController.nib /Users/jono/dev/mhd/PopTrumps/GamePlayController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/jono/dev/mhd/PopTrumps/MainWindow.xib
-s317508519.521551
-e317508520.045034
-r1
-xCompileXIB
-x/Users/jono/dev/mhd/PopTrumps/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib317508519#317508520#0(0"0(0#0#44"/Users/jono/dev/mhd/PopTrumps/MainWindow.xib8618844064#650"    cd /Users/jono/dev/mhd/PopTrumps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/MainWindow.nib /Users/jono/dev/mhd/PopTrumps/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/jono/dev/mhd/PopTrumps/RootViewController.xib
-s317508519.522252
-e317508520.012844
-r1
-xCompileXIB
-x/Users/jono/dev/mhd/PopTrumps/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib317508519#317508520#0(0"0(0#0#52"/Users/jono/dev/mhd/PopTrumps/RootViewController.xib8611370240#666"    cd /Users/jono/dev/mhd/PopTrumps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/RootViewController.nib /Users/jono/dev/mhd/PopTrumps/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/173021.jpeg 173021.jpeg
-s317508520.452188
-e317508520.487491
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/173021.jpeg
-x173021.jpeg
-lSLF07#2@16"Copy 173021.jpeg317508520#317508520#0(0"0(0#0#41"/Users/jono/dev/mhd/PopTrumps/173021.jpeg8608641920#570"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/173021.jpeg /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/icon_albums.png icon_albums.png
-s317508520.453999
-e317508520.489302
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/icon_albums.png
-xicon_albums.png
-lSLF07#2@20"Copy icon_albums.png317508520#317508520#0(0"0(0#0#45"/Users/jono/dev/mhd/PopTrumps/icon_albums.png8619270432#574"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/icon_albums.png /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/icon_familiarity.png icon_familiarity.png
-s317508520.457799
-e317508520.487628
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/icon_familiarity.png
-xicon_familiarity.png
-lSLF07#2@25"Copy icon_familiarity.png317508520#317508520#0(0"0(0#0#50"/Users/jono/dev/mhd/PopTrumps/icon_familiarity.png8605860096#579"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/icon_familiarity.png /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/icon_grid.png icon_grid.png
-s317508520.463718
-e317508520.492399
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/icon_grid.png
-xicon_grid.png
-lSLF07#2@18"Copy icon_grid.png317508520#317508520#0(0"0(0#0#43"/Users/jono/dev/mhd/PopTrumps/icon_grid.png8609957536#572"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/icon_grid.png /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/icon_hotness.png icon_hotness.png
-s317508520.459870
-e317508520.487724
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/icon_hotness.png
-xicon_hotness.png
-lSLF07#2@21"Copy icon_hotness.png317508520#317508520#0(0"0(0#0#46"/Users/jono/dev/mhd/PopTrumps/icon_hotness.png8624244768#575"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/icon_hotness.png /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CCpResource build/Release-iphonesimulator/PopTrumps.app/icon_singles.png icon_singles.png
-s317508520.461892
-e317508520.488030
-r1
-xCpResource
-xbuild/Release-iphonesimulator/PopTrumps.app/icon_singles.png
-xicon_singles.png
-lSLF07#2@21"Copy icon_singles.png317508520#317508520#0(0"0(0#0#46"/Users/jono/dev/mhd/PopTrumps/icon_singles.png8618601344#575"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jono/dev/mhd/PopTrumps/icon_singles.png /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app0#
-
-CGenerateDSYMFile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app.dSYM /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/PopTrumps
-r0
-
-CLd /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/PopTrumps normal i386
-r0
-
-CProcessInfoPlistFile /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/Info.plist PopTrumps-Info.plist
-s317508519.518458
-e317508519.521469
-r1
-xProcessInfoPlistFile
-x/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/Info.plist
-xPopTrumps-Info.plist
-lSLF07#2@28"Process PopTrumps-Info.plist317508519#317508519#0(0"0(0#0#50"/Users/jono/dev/mhd/PopTrumps/PopTrumps-Info.plist8624645472#565"    cd /Users/jono/dev/mhd/PopTrumps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    builtin-infoPlistUtility PopTrumps-Info.plist -genpkginfo /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app/Info.plist0#
-
-CProcessPCH /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch.gch PopTrumps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317508520.646078
-e317508522.719218
-r1
-xProcessPCH
-x/var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch.gch
-xPopTrumps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile PopTrumps_Prefix.pch317508520#317508522#0(0"0(0#0#50"/Users/jono/dev/mhd/PopTrumps/PopTrumps_Prefix.pch8625106688#1973"    cd /Users/jono/dev/mhd/PopTrumps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/Users/jono/dev/lib/qt/bin:/homebrew/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-generated-files.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-own-target-headers.hmap -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-all-target-headers.hmap -iquote /Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/PopTrumps-project-headers.hmap -F/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator -F/Users/jono/dev/mhd/PopTrumps/json-framework/build/Debug -I/Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/include -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources/i386 -I/Users/jono/dev/mhd/PopTrumps/build/PopTrumps.build/Release-iphonesimulator/PopTrumps.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/jono/dev/mhd/PopTrumps/PopTrumps_Prefix.pch -o /var/folders/1V/1Vei-xfMFl00ZO6JJQ6AHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PopTrumps_Prefix-dtjhgtbuhcuoasdzstnvlbqckfaw/PopTrumps_Prefix.pch.gch0#
-
-CTouch /Users/jono/dev/mhd/PopTrumps/build/Release-iphonesimulator/PopTrumps.app
-r0
-
